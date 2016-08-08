@@ -1,0 +1,15 @@
+body {
+    padding-right: 50px;
+}
+
+.header {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.add-button {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
