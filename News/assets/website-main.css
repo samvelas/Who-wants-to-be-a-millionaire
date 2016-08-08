@@ -1,0 +1,48 @@
+.container {
+    padding: 0 !important;
+}
+
+body {
+    background-image: url("cover.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+.content-container {
+    background-color: whitesmoke;
+    overflow: hidden;
+    background-repeat: repeat-y;
+    height: 100%;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+}
+
+.navbar, .navbar-default, .navbar-inverse, .navbar-fixed-top {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+}
+
+.row {
+    margin: 50px;
+}
+
+h3 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.post-content {
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 2400px !important;
+    max-height: 100px;
+}
